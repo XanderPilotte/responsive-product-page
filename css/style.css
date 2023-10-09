@@ -28,6 +28,11 @@ html {
 
 body {
   margin: 0;
+  max-width: 66%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 img {
@@ -35,5 +40,39 @@ img {
   max-width: 100%;
 }
 
+nav {
+  display: flex;
+  max-width: 1200px;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0 1em;
 
+}
 
+nav>div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.first div {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+
+.first {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.first section {
+  display: flex;
+  flex-direction: column;
+}
+
+.first img {
+  padding: .5em;
+  max-width: 100%;
+}
