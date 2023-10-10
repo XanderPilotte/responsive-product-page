@@ -29,9 +29,6 @@ html {
 body {
   margin: 0;
   max-width: 66%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 img {
@@ -67,6 +64,7 @@ nav>div {
 .first section {
   display: flex;
   flex-direction: column;
+
 }
 
 .first img {
@@ -100,8 +98,12 @@ h2 {
   font-size: var(--font-size-lg);
 }
 
-main {
-  display: flex;
-  flex-direction: column;
+.try-it {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+footer {
   align-items: center;
+  font-size: ;
 }
